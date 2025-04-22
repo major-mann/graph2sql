@@ -1,3 +1,4 @@
+// TODO: Make these options
 export const KEY = `$$key$$`;
 export const CURSOR = `$$cursor$$`;
 export const SEPARATOR = `:`;
