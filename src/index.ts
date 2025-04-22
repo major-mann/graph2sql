@@ -22,6 +22,15 @@ import { DateScalar } from './graphql/scalar/date.js';
 import { JsonScalar } from './graphql/scalar/json.js';
 
 import {
+  Connection,
+  Direction,
+  ListParams,
+  Filter,
+  Input,
+  Output,
+} from './graphql/type.js'
+
+import {
   StoreBinaryType,
   StoreBooleanType,
   StoreDateType,

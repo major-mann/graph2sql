@@ -50,12 +50,6 @@ export type Output<T> = {
   output: T;
 };
 
-// TODO: Figure this out
-export type User = {
-  id: string;
-  email: string;
-};
-
 export type Connection<TNode, TCursor = string> = {
   edges: {
     node: TNode;
